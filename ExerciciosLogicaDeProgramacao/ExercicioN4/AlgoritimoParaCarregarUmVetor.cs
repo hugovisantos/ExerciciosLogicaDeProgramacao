@@ -6,16 +6,17 @@ namespace ExerciciosLogicaDeProgramacao.ExercicioN4
 {
     public class AlgoritimoParaCarregarUmVetor
     {
-        public void CarregarUmVetor()
-        {
-            int vetor[5];
-            //int i;
+        public int[] CarregarUmVetor(int[] vetor)
+        {         
+ 
+            int i=0;
 
-            for(int i = 0; i < 5; i++)
+            while  (i < 5)
             {
-                vetor[i] = i++;
+                vetor[i] = i++;                
             }
-
+            return vetor;
+            
         }
     }
 }
